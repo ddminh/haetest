@@ -1,0 +1,91 @@
+/* 
+    Author     : Do Duc Minh
+*/
+@font-face {
+    src: url(../font/Caveat-Bold.ttf);
+    font-family: Caveat;
+}
+
+@font-face {
+    src: url(../font/IBMPlexSans-Regular.ttf);
+    font-family: IBMPlexSans;
+}
+
+body {
+    font-family: IBMPlexSans
+}
+
+.guest-name {
+    font-family: Caveat;
+    font-size: 20px;
+}
+.guest-date {
+    font-size: 12px;
+}
+.information {
+}
+
+.blank-spacing {
+    background-color: #383842;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo-image {
+    width: 60%; 
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.post-message {
+    text-align: center;
+}
+
+.post-button {
+    width: 100%;
+    background-color: #c61f3d;
+}
+
+.card-info {
+    border: none;
+}
+
+.guest-info {
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #383842;
+    background-image: url(../images/quotes.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position-x: center;
+    background-position-y: 50px;
+    
+}
+
+.login {
+    padding-top: 50px;
+}
+
+.guest-info-2 {
+    display: block; 
+    width: 75%; 
+    float: left
+}
+.guest-info-edit {
+    padding: 0px;
+    float: left;
+    display: block;
+}
+.dialog-message-title {
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+/* Alert validate */
+.alert-validate{
+    border: 1px solid red;
+}
